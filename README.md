@@ -5,7 +5,7 @@ A language interpreter made in the C programming language to manage stacks and q
 
 ## Requirements
 
-* Allowed editors: vi, vim, emacs
+* Editor used: `vim`
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c90
 * All your files should end with a new line
 * A README.md file, at the root of the folder of the project is mandatory
@@ -47,61 +47,7 @@ $ make
 | rotl | moves element at the top to the bottom of the stack |
 | rotr | the bottom of the stack becomes the top |
 | queue, stack | toggles the doubly link list implementation style |
-| nop | opcode should do nothing |
-
-
-
-
-Examples:
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`$`
-
----
-
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`rotl`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`2`
-
-`1`
-
-`3`
+| nop | opcode should do nothing
 
 ## Exit Status
 Exits with status `EXIT_FAILURE`
@@ -116,4 +62,4 @@ All programs and functions were compiled with `gcc 4.8.4` using flags `-Wall -We
 All files have been written in the Betty Style.
 
 ## Authors
-**Yonas Leykun** 
+**Tivere IDORO** 
